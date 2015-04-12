@@ -17,7 +17,7 @@ Feature
 
 License
 -------
-playVoIP published with MIT license
+playVoIP published with [MIT license](LICENSE.md)
 
 
 Developer
@@ -45,4 +45,4 @@ Hardware:
 
 Installation
 ------------
-Please see [INSTALL.md](INSTALL.md)
+Please see [installation instruction](INSTALL.md)
