@@ -45,4 +45,4 @@ Hardware:
 
 Installation
 ------------
-Please see [INSTALL.md]()
+Please see [INSTALL.md](INSTALL.md)
