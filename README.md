@@ -1,14 +1,12 @@
 playVoIP
 --------
-Webbased VoIP service enabler featured with user management, statistical report and registration 
-application system based on LAMP and Asterisk. At the beginning this project was specially designed 
-for simple and free Indonesian VoIP network, VoIP Rakyat.
+Webbased VoIP service enabler featured with user management, statistical report and registration application system based on LAMP and Asterisk. At the beginning this project was specially designed for simple and free Indonesian VoIP network, VoIP Rakyat.
 
 Background
 ----------
-This application designed for VoIP Rakyat Network (http://voip.ictcentre.net was http://www.voiprakyat.net).
-If you need this application to match your own VoIP Network, all you have to do is changing sample asterisk 
-configuration files under 'etc' in this package. A good understanding of hows VoIP and Asterisk works is a must.
+This application designed for VoIP Rakyat Network http://www.voiprakyat.or.id (was http://voip.ictcentre.net).
+
+If you need this application to match your own VoIP Network, all you have to do is changing sample asterisk configuration files under 'etc' in this package. A good understanding of hows VoIP and Asterisk works is a must.
 
 
 Feature
@@ -47,4 +45,4 @@ Hardware:
 
 Installation
 ------------
-Please see INSTALL.md
+Please see [INSTALL.md]()
