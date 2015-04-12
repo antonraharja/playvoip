@@ -1,5 +1,6 @@
-CHANGELOG
+Changelog
 ---------
+
 2015-04-12
 - publish in Github
 - update docs

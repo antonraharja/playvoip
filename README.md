@@ -1,9 +1,12 @@
 playVoIP
 --------
+
 Webbased VoIP service enabler featured with user management, statistical report and registration application system based on LAMP and Asterisk. At the beginning this project was specially designed for simple and free Indonesian VoIP network, VoIP Rakyat.
+
 
 Background
 ----------
+
 This application designed for VoIP Rakyat Network http://www.voiprakyat.or.id (was http://voip.ictcentre.net).
 
 If you need this application to match your own VoIP Network, all you have to do is changing sample asterisk configuration files under 'etc' in this package. A good understanding of hows VoIP and Asterisk works is a must.
@@ -11,17 +14,20 @@ If you need this application to match your own VoIP Network, all you have to do 
 
 Feature
 -------
+
 - Webbased user registration for Asterisk account
 - Change own password and preferences for each account
 
 
 License
 -------
+
 playVoIP published with [MIT license](LICENSE.md)
 
 
 Developer
 ---------
+
 - Anton Raharja (http://www.antonraharja.com)
 - Abdul Hanan (http://www.belajar-gratis.com)
 
@@ -45,4 +51,5 @@ Hardware:
 
 Installation
 ------------
+
 Please see [installation instruction](INSTALL.md)
