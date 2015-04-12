@@ -1,0 +1,241 @@
+
+body
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  background-color: #ffffff; 
+}
+
+a
+{ color: #000080;
+  text-decoration: none;
+}
+
+a:hover
+{ color: #000080;
+  background-color:  #ffc000;
+}
+
+table, p, br, tr
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+}
+
+td, div
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: normal;
+  color: #000000;
+  background-color: ; 
+}       
+
+h1
+{ font-family: Arial Black, Arial, Helvetica, MS Sans Serif;
+  font-size: 22pt;
+  font-weight: bold; 
+  text-align: left; 
+  color: #808080; 
+  background-color: ; 
+  margin-top: 0; 
+  margin-bottom: 0;
+}
+
+h2
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 14pt;
+  font-weight: bold; 
+  text-align: left; 
+  color: #808080; 
+  background-color: ; 
+  margin-top: 0; 
+  margin-bottom: 0;
+}
+
+input, select, option, textarea
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt; 
+  font-weight: normal; 
+  color: #000000; 
+  background-color: #c0c0c0; 
+  border: 1px solid #808080;
+}
+
+button, .button
+{ font-weight: bold; 
+  color: #ffffd0; 
+  background-color: #000080; 
+  border: 1px solid #808080;
+}
+
+li
+{ color: #000000;
+}
+
+.font14pt    { font-size: 14pt;}
+.font11pt    { font-size: 11pt;}
+.font9pt     { font-size: 11pt;}
+.color_red   { color: red}
+.color_green { color: green}
+.color_blue  { color: blue}
+.color_black { color: black}
+.color_white { color: white}
+.color_gray  { color: gray}
+
+.home_tab
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center; 
+  color: #4c4cc9;
+  background-color: ; 
+}       
+
+.selected_tab
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center; 
+  tex-decoration: none;
+  color: #4c4cc9;
+  background-color: ; 
+}       
+
+.unselected_tab
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center; 
+  tex-decoration: none;
+  color: #4c4cc9;
+  background-color: ; 
+}       
+
+.selected_tab:hover
+{ color: #4c4cc9;
+}
+
+.unselected_tab:hover
+{ color: #4c4cc9;
+}
+
+.box_name
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center;
+  color: #ffc000;
+  background-color: #ffffff; 
+  border: 1 solid #ffc000;
+}
+
+.box_title
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center; 
+  color: #ffffd0;
+  background-color: #ffc000; 
+}       
+
+.box_title9pt
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center; 
+  color: #ffffd0;
+  background-color: #ffc000; 
+}       
+
+.box_title8pt
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: center; 
+  color: #ffffd0;
+  background-color: #ffc000; 
+}       
+
+.box_heading
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 11pt;
+  font-weight: bold;
+  text-align: left; 
+  color: ;
+  background-color: ; 
+}       
+
+.box_heading9pt
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left; 
+  color: ;
+  background-color: ; 
+}       
+
+.box_heading8pt
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: left; 
+  color: ;
+  background-color: ; 
+}       
+
+.box_text
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: normal;
+  text-align: left; 
+  color: #000000;
+  background-color: ; 
+}       
+
+.box_text9pt
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: normal;
+  text-align: left; 
+  color: #000000;
+  background-color: ; 
+}       
+
+.box_text8pt
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 8pt;
+  font-weight: normal;
+  text-align: left; 
+  color: #000000;
+  background-color: ; 
+}       
+
+.barItem
+{ font-family: Arial, Helvetica, MS Sans Serif;
+  font-size: 9pt;
+  font-weight: bold; 
+  text-decoration: none;
+  color: #000080;
+  background: ; 
+  cursor: hand; 
+}
+
+.menuItem 
+{ font-size: 9pt;
+  text-decoration: none;
+  color: ;
+  cursor: hand; 
+}
+
+.menuItem:hover
+{ color: ;
+  background: ; 
+}
+
+.boxItem
+{ background: ; 
+  padding: 3px; 
+  border-top: 1 solid #000000;
+  border-left: 1 solid #000000;
+  border-right: 1 solid #c0c0c0;
+  border-bottom: 1 solid #c0c0c0;
+}
+

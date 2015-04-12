@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Path to PlayVoIP web directory
+VRWEB="/var/www/html/voip.ictcentre.net";
+
+# Path to php binary
+PHPBIN="/usr/bin/php";
+
+
+# DO NOT CHANGE ANY CODES BELOW
+# UNLESS YOU KNOW WHAT YOU'RE DOING
+
+
+# Log peers
+/usr/sbin/asterisk -rx "sip show peers" > /var/log/asterisk/peers_sip
+/usr/sbin/asterisk -rx "iax2 show peers" > /var/log/asterisk/peers_iax
+
+# Update website
+CWD=`pwd`
+cd $VRWEB
+$PHPBIN -q $VRWEB/updateconf.php
+cd $CWD
+
+# Reload new accounts (if any)
+#/usr/sbin/asterisk -rx "reload"
+#/usr/sbin/asterisk -rx "sip reload"
+#sleep 2
+#/usr/sbin/asterisk -rx "iax2 reload"
+#sleep 2
+#/usr/sbin/asterisk -rx "h323 reload"
+
+/usr/sbin/asterisk -rx "reload"
+
